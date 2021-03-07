@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matrix Systems - Products</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
+    <link href="../fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
+    <link href="../css/templatemo-diagoona.css" rel="stylesheet" />
+    <link href="../css/products.css" rel="stylesheet" />
+
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.backstretch.min.js"></script>
+    <script src="../js/templatemo-script.js"></script>
+</head>
+
+<body>
+    <div class="tm-container">
+        <div>
+            <div class="tm-row pt-4">
+                <div class="tm-col-left">
+                    <div class="tm-site-header media">
+                        <i class="fas fa-umbrella-beach fa-3x mt-1 tm-logo"></i>
+                        <div class="media-body">
+                            <h1 class="tm-sitename">Matrix Systems</h1>
+                            <p class="tm-slogon"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="products_list" class="grid-container">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            //alert("ready");
+            var webLongImg = "../images/weblong.png"
+            var webLongTitle = "WebLong"
+            var webLongDesc = "Welcome to WebLong, our web screenshot capture app to take screenshots of webpages. Ever wonder how to take full webpage screenshot 📱 or save webpage for offline viewing 😕 ? With WebLong you can take unlimited burst screenshots while browsing your favourite webpage and convert it to PDF with the inbuilt webpage to PDF converter like a pro 😎.Share your screenshot as an Image as well as a PDF on popular platforms. Our app has a simple interface and which makes it easy to use.Using the long screenshot web, you can take the screenshot of all the feeds loaded in your browser in separate files by just one touch.Hence, it is not less than any web page downloader.";
+
+            var tripEasyImg = "../images/trip_easy_new.png"
+            var tripEasyTitle = "Trip Easy"
+            var tripEasyDesc = "Visiting your favourite places in a new town has never been easier than this. With Trip Easy you can go to all the places you want in the radius of 50 km without worrying and without focusing on which route to choose and which not. Using this app you can mark up to 5 places which you want to visit and this will tell you the shortest and most reliable route which you should take for reaching the next point. This app first shows the place which is nearest to your origin and once you reach that place, the next place shown to you will be nearest to your current position. This app tells you all the routes you should take, one after the another, for reaching the last place i.e.the destination even when you are at the origin. You can also search nearby places like ATMs, gas stations, spa and many more.And by tapping the marker you can find out path, distance and travel time to that place."
+
+            var noteItImg = "../images/noteit.png"
+            var noteItTitle = "NoteIt"
+            var noteItDesc = "An application for noting stuff for use in daily lives or you can also use this app as a TODO app. This app simply notes the things in two parts, a topic and a description, and you can add as many lists as you want."
+
+            var aqiImg = "../images/the_aqi.png"
+            var aqiTitle = "The AQI"
+            var aqiDesc = "We are presenting you The AQI, our air quality index, and weather forecast app. Have you ever thought about the impact which the environment and climate change are causing to our health 😕 ? Using The AQI you can know many essential things about the atmosphere. It automatically detects the user’s location and shows some vital pieces of information like the Weather Forecast, Air Quality Index, Pollutants, AQIs near you, Health News & Environmental News."
+
+            $('#products_list').append('<div><img class="app-logo" src = "' + webLongImg + '"/><h1 class="app-title">' + webLongTitle + '</h1><p class="app-desc">' + webLongDesc + '</p><a href="weblong" class="button8">Know More</a></div >');
+            $('#products_list').append('<div><img class="app-logo" src = "' + tripEasyImg + '"/><h1 class="app-title">' + tripEasyTitle + '</h1><p class="app-desc">' + tripEasyDesc + '</p><a href="trip-easy" class="button8">Know More</a></div >');
+            $('#products_list').append('<div><img class="app-logo" src = "' + noteItImg + '"/><h1 class="app-title">' + noteItTitle + '</h1><p class="app-desc">' + noteItDesc + '</p><a href="noteit" class="button8">Know More</a></div >');
+            $('#products_list').append('<div><img class="app-logo" src = "' + aqiImg + '"/><h1 class="app-title">' + aqiTitle + '</h1><p class="app-desc">' + aqiDesc + '</p><a href="the-aqi" class="button8">Know More</a></div >');
+        });
+    </script>
+</body>
+
+</html>

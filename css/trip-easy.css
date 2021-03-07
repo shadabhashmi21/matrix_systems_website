@@ -1,0 +1,42 @@
+﻿.cover-image-tripeasy {
+    margin-left: 100px;
+}
+
+.play-badge-tripeasy {
+    margin-top: -500px;
+}
+
+a.button8-tripeasy {
+    display: inline-block;
+    padding: 0.2em 1.45em;
+    margin: 0.1em;
+    border: 0.15em solid #CCCCCC;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI','Roboto',sans-serif;
+    font-weight: 400;
+    color: #000000;
+    background-color: #CCCCCC;
+    text-align: left;
+    position: relative;
+    margin: 20px 10px 0 0;
+}
+
+    a.button8-tripeasy:hover {
+        border-color: #7a7a7a;
+    }
+
+    a.button8-tripeasy:active {
+        background-color: #999999;
+    }
+
+@media all and (max-width:30em) {
+     a.button8-tripeasy {
+        display: block;
+        margin: 0.2em auto;
+    }
+}
+
+#first-button-tripeasy {
+    margin-left: -300px;
+}
