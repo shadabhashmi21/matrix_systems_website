@@ -1,0 +1,53 @@
+.page-container {
+    margin: 20px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 50px;
+}
+
+.cover-image-weblong{
+    margin-left: -300px;
+}
+
+.app-title{
+    margin-top: -20px;
+}
+
+.app-desc{
+    margin-top: 20px;
+}
+
+.play-badge-weblong{
+    margin-top: -250px;
+}
+
+a.button8 {
+    padding-left: 80px;
+    display: inline-block;
+    padding: 0.2em 1.45em;
+    margin: 0.1em;
+    border: 0.15em solid #CCCCCC;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI','Roboto',sans-serif;
+    font-weight: 400;
+    color: #000000;
+    background-color: #CCCCCC;
+    text-align: left;
+    position: relative;
+    margin: 20px 10px 0 0;
+}
+
+    a.button8:hover {
+        border-color: #7a7a7a;
+    }
+
+    a.button8:active {
+        background-color: #999999;
+    }
+
+@media all and (max-width:30em) {
+     a.button8 {
+        display: block;
+        margin: 0.2em auto;
+    }
+}

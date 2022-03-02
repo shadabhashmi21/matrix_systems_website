@@ -1,0 +1,77 @@
+﻿.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 60px;
+    padding: 20px 40px 20px 40px;
+}
+
+    .grid-container > div {
+        background-color: rgba(0,0,0,0.5);
+        text-align: center;
+        padding: 20px;
+    }
+
+.app-logo {
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-title {
+    margin-top: -40px;
+    color: aliceblue;
+}
+
+.app-desc {
+    margin: 10px;
+    font-size: 18px;
+    color: aliceblue;
+    line-height: 150%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+
+
+
+
+
+a.button8 {
+    display: inline-block;
+    padding: 0.2em 1.45em;
+    margin: 0.1em;
+    border: 0.15em solid #CCCCCC;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI','Roboto',sans-serif;
+    font-weight: 400;
+    color: #000000;
+    background-color: #CCCCCC;
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+    a.button8:hover {
+        border-color: #7a7a7a;
+    }
+
+    a.button8:active {
+        background-color: #999999;
+    }
+
+@media all and (max-width:30em) {
+     a.button8 {
+        display: block;
+        margin: 0.2em auto;
+    }
+}
+
+span {
+    content: "\00A9";
+}
